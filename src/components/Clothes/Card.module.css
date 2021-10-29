@@ -1,0 +1,55 @@
+.card{
+    display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
+    height: 15rem;
+    width: 45rem;
+    background-color: chocolate;
+    padding: 1%;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 8px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(94, 44, 8);
+    padding: 1%;
+    color: white;
+    max-width: 20rem;
+}
+
+header{
+    text-transform: capitalize;
+}
+.body text{
+    margin: 3% 0 0 0;
+}
+.actions{
+    display: flex;
+    margin-top: 20%;
+    justify-content: space-between;
+}
+
+.actions button{
+    height: 3rem;
+    width: 9rem;
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(119, 57, 45);
+    color: white;
+}
+
+.actions button:hover{
+    background-color:white ;
+    color: rgb(119, 57, 45);
+}
+
+.card img{
+    height: 15rem;
+    width: 20rem;
+    padding: 0 15%;
+    
+}

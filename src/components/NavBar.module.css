@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(150, 52, 35);
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    align-items:center ;
+    z-index: 10;
+    padding: 2%;
+    box-shadow: 2px 2px 7px black;
+
+}
+.navbar li{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.shopwithus li{
+    position: relative;
+    top: 5rem;
+    left: 87vw;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(95, 25, 13);
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 20;
+    position: fixed;
+    font-family: 'Scheherazade New', serif;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+}
+
+.img img{
+    width: 100%;
+    height: 25rem;
+    transform: rotate(-5deg);
+    transform-origin: 60%;
+    background-size: cover;
+    
+}
+.description{
+    height: 20rem;
+    width: 10rem;
+    background-color: black;
+    z-index: 100;
+}
+

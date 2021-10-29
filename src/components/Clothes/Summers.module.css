@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.summer_container{
+    height: 100%;
+    margin: auto;
+    padding: 2%;
+    
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    
+}
+.summer_container h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    padding: 1%;
+    margin: auto;
+}
+
+.summer_actions{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.summer_actions button{
+    height: 2.5rem;
+    width: 15rem;
+    background-color: tomato;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+.summer_actions button:hover{
+    background-color: rgb(150, 46, 28)
+}
